@@ -1,0 +1,9 @@
+= Install source code
+
+cd mediawiki-dir/extensions/
+git clone git://github.com/beyond/mediawiki-asciiarts-extension.git AsciiArts
+
+= Add LocalSettings.php
+
+require_once( "extensions/AsciiArts/aa.php" );
+
